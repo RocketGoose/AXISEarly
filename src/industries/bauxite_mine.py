@@ -14,6 +14,7 @@ industry = IndustryPrimaryExtractive(
     nearby_station_name="string(STR_STATION_BAUXITE)",
     fund_cost_multiplier="200",
     pollution_and_squalor_factor=1,
+    intro_year=1860
 )
 
 
