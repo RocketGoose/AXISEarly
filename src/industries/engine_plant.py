@@ -14,6 +14,7 @@ industry = IndustrySecondary(
     nearby_station_name="string(STR_STATION_POWERTRAIN)",
     fund_cost_multiplier="120",
     pollution_and_squalor_factor=1,
+    intro_year=1885,
 )
 
 industry.economy_variations["STEELTOWN"].enabled = True

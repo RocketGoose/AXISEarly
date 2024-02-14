@@ -13,6 +13,7 @@ industry = IndustrySecondary(
     name="string(STR_IND_ELECTRICAL_WORKS)",
     nearby_station_name="string(STR_STATION_DYNAMO)",
     fund_cost_multiplier="120",
+    intro_year=1900,
 )
 
 industry.economy_variations['STEELTOWN'].enabled = True
