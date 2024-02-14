@@ -10,6 +10,7 @@ industry = IndustrySecondary(
     name="string(STR_IND_FARM_SUPPLY_YARD)",
     nearby_station_name="string(STR_STATION_FEED_AND_SEED)",
     fund_cost_multiplier="110",
+    intro_year=1850,
 )
 
 

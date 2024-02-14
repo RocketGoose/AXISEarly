@@ -14,6 +14,7 @@ industry = IndustryPrimaryPort(
     nearby_station_name="string(STR_STATION_TANK_FARM)",
     fund_cost_multiplier="152",
     override_default_construction_states=True,
+    intro_year=1850,
 )
 
 
