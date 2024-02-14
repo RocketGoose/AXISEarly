@@ -1,3 +1,11 @@
+# AXISE: Another Xtreme Industry Set Early
+
+A fork of AXIS for those who like to start the game early. 
+
+To Do:
+    - [x] Intro dates for Steelcity 
+    - [] Intro dates for Tropical Paradise
+
 # AXIS: Another Xtreme Industry Set
 
 A fork of FIRS 4.4.0 by andythenorth. The official successor to XIS: Xtreme Industry Set.
