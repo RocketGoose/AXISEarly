@@ -17,6 +17,7 @@ industry = IndustrySecondary(
     name="string(STR_IND_CANNERY)",
     nearby_station_name="string(STR_STATION_CANNERY)",
     fund_cost_multiplier="65",
+    intro_year=1810,
 )
 
 industry.economy_variations["BASIC_TROPIC"].enabled = True
