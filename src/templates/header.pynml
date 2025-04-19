@@ -64,6 +64,18 @@ grf {
 			max_value: 10000;
 		}
 	}
+	param allow_close_secondary {
+	    type: int;
+	    name: string(STR_PARAM_ALLOW_CLOSE_SECONDARY);
+	    desc: string(STR_PARAM_ALLOW_CLOSE_SECONDARY_DESC);
+	    min_value: 0;
+	    max_value: 1;
+	    def_value: 1;
+	    names: {
+	        0: string(STR_PARAM_SECONDARY_NEVER_CLOSE);
+	        1: string(STR_PARAM_SECONDARY_CLOSE_DOWN);
+	    };
+	}
 	param 4 {
 		marine_industry_max_coastal_distance {
 			name: string(STR_PARAM_NAME_COAST_DISTANCE_MARINE_INDUSTRY);
