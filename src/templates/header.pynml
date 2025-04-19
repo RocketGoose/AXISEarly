@@ -28,6 +28,19 @@ grf {
 			bit: 2;
 		}
 	}
+    param 3 {
+	allow_close_secondary {
+	    name: string(STR_PARAM_ALLOW_CLOSE_SECONDARY);
+	    desc: string(STR_PARAM_ALLOW_CLOSE_SECONDARY_DESC);
+	    min_value: 0;
+	    max_value: 1;
+	    def_value: 1;
+	    names: {
+		0: string(STR_PARAM_SECONDARY_NEVER_CLOSE);
+		1: string(STR_PARAM_SECONDARY_CLOSE_DOWN);
+	    };
+	}
+    }
 	param 7 {
 		primary_level1_produced_percent {
 			name: string(STR_PARAM_NAME_PRIMARY_LEVEL1_BONUS);
